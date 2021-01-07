@@ -1,11 +1,23 @@
 const listings = [
   {
     id: 201,
-    title: "Red jacket",
-    images: [{ fileName: "jacket1" }],
-    price: 100,
+    title: "Straw Hat",
+    images: [{ fileName: "hat" }],
+    price: 20,
     categoryId: 5,
     userId: 1,
+    location: {
+      latitude: 37.78825,
+      longitude: -122.4324,
+    },
+  },
+  {
+    id: 3,
+    title: "Winifred (SOLD)",
+    images: [{ fileName: "winnie" }],
+    categoryId: 1,
+    price: 89,
+    userId: 2,
     location: {
       latitude: 37.78825,
       longitude: -122.4324,
@@ -23,29 +35,12 @@ const listings = [
       longitude: -122.4324,
     },
   },
-  {
-    id: 3,
-    title: "Gray couch in a great condition",
-    images: [{ fileName: "couch2" }],
-    categoryId: 1,
-    price: 1200,
-    userId: 2,
-    location: {
-      latitude: 37.78825,
-      longitude: -122.4324,
-    },
-  },
+
   {
     id: 1,
-    title: "Room & Board couch (great condition) - delivery included",
-    description:
-      "I'm selling my furniture at a discount price. Pick up at Venice. DM me asap.",
-    images: [
-      { fileName: "couch1" },
-      { fileName: "couch2" },
-      { fileName: "couch3" },
-    ],
-    price: 1000,
+    title: "Dog COVID-19 mask",
+    images: [{ fileName: "mask" }],
+    price: 10,
     categoryId: 1,
     userId: 1,
     location: {
