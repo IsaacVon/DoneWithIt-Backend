@@ -12,6 +12,18 @@ const listings = [
     },
   },
   {
+    id: 229,
+    title: "Karma Revero GT",
+    images: [{ fileName: "karma" }],
+    price: 152900,
+    categoryId: 5,
+    userId: 1,
+    location: {
+      latitude: 37.78825,
+      longitude: -122.4324,
+    },
+  },
+  {
     id: 3,
     title: "Gray couch in a great condition",
     images: [{ fileName: "couch2" }],
