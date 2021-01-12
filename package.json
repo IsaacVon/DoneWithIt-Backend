@@ -6,11 +6,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "node": "12.6.x"
-  },
   "keywords": [],
-  "author": "Mosh Hamedani",
+  "author": "Isaac Householder",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
