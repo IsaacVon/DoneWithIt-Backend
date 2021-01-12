@@ -14,8 +14,8 @@ const users = [
   {
     id: 3,
     name: "Isaac",
-    email: "isaac@gmail.com",
-    password: "12345",
+    email: "isaachouseholder@gmail.com",
+    password: "password",
   },
 ];
 
